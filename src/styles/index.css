@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  font-size: x-large;
+  background-color: #8b9191;
+  /* Agregar imagen de fondo */
+  background-image: url('../../assets/pizza-fondo-02.jpg');
+  /* Ajustar el tamaño de la imagen de fondo */
+  background-size: cover;
+  /* Centrar la imagen de fondo */
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+  background-color: #2c7def;
+  padding: 10px;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  padding: 3px;
+  color: #f4cc88;
+}
+a:hover {
+  cursor: pointer;
+  color: #1ed4e1;
+  background-color: #0864e6;
+  transition: linear 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #1ed4e1;
+  padding: 15px;
+  border-radius: 17px;
+  width: 50%;
+  margin: 10% 25%;
+}
+h1, h2 {
+  color: #0af6bf; /* Cambiar el color del texto a blanco */
+}
